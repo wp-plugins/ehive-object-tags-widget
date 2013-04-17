@@ -156,7 +156,7 @@ class EHiveObjectTags_Widget extends WP_Widget {
 		if ( $object_record_id && $tags ) {
 			
 			global $eHiveAccess;
-			require_once  plugin_dir_path(__FILE__).'../eHiveAccess/ehive_api_client-php/domain/objectrecordtags/ObjectRecordTag.php';
+			require_once  plugin_dir_path(__FILE__).'../ehive-access/ehive_api_client-php/domain/objectrecordtags/ObjectRecordTag.php';
 			
 			$eHiveApi = $eHiveAccess->eHiveApi();
 			
@@ -186,7 +186,7 @@ class EHiveObjectTags_Widget extends WP_Widget {
 		if ($object_record_id && $tagString) {
 
 			global $eHiveAccess;
-			require_once  plugin_dir_path(__FILE__).'../eHiveAccess/ehive_api_client-php/domain/objectrecordtags/ObjectRecordTag.php';
+			require_once  plugin_dir_path(__FILE__).'../ehive-access/ehive_api_client-php/domain/objectrecordtags/ObjectRecordTag.php';
 
 			$eHiveApi = $eHiveAccess->eHiveApi();
 			
